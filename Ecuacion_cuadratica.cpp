@@ -8,6 +8,8 @@ using namespace std;
 
 bool EcuacionCuadratica(double a, double b, double c, double& x1, double& x2) 
 {
+ //FALTA VERIFICAR SI "A" ES CERO
+    
     double discriminante = b * b - 4 * a * c;
     if (discriminante < 0) 
     {
